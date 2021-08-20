@@ -6,4 +6,4 @@ before_install:
   - docker build -t yetiasg/vue-docker -f Dockerfile.dev .
 
 script:
-  - docker run yetiasg/vue-docker
+  - docker -e CI=true run yetiasg/vue-docker
