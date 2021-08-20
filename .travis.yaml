@@ -4,7 +4,3 @@ services:
 
 before_install:
   - docker build -t yetiasg/vue-docker -f Dockerfile.dev .
-
-# tests
-# script:
-#   - docker run -e CI=true yetiasg/docker-vue vue-cli-service test:unit
