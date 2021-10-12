@@ -15,10 +15,10 @@ deploy:
   provider: elasticbeanstalk
   region: "eu-central-1"
   app: "vue-docker"
-  env: "Vuedocker-env"
+  env: "Vuedocker-env-1"
   bucket_name: "elasticbeanstalk-eu-central-1-531089319466"
   bucket_path: "vue-docker"
   on: 
     branch: master
-  access_key_id: "AKIAXXJ3D4YVNTSDB64H"
-  secret_access_key: "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"
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
