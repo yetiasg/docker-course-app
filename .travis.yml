@@ -20,7 +20,5 @@ deploy:
   bucket_path: "vue-docker"
   on: 
     branch: master
-  access_key_id:
-    secure: "AKIAXXJ3D4YVNTSDB64H"
-  secret_access_key:
-    secure: "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"
+  access_key_id: "AKIAXXJ3D4YVNTSDB64H"
+  secret_access_key: "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"
